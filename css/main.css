@@ -4,7 +4,7 @@
 
 body{
     margin: 0;
-    font-family: "Rubik", "Arial", sans-serif;
+    font-family: "Open Sans", "Arial", sans-serif;
     font-weight: 400;
   }
   img{
@@ -84,11 +84,14 @@ color: #222222;
 }
 
 .list-item-link{
+ font-weight: 700;
+font-size: 14px;
+letter-spacing: 2px;
+color: #222222;
 text-decoration: none;
 }
 
 .list-item-link:hover{
-    text-decoration: underline;
   color: #f00 ;
 }
 
@@ -129,12 +132,13 @@ text-decoration: none;
 }
 
 .hero-content-tittle{
- font-weight: 700;
-font-size: 36px;
-color:  #FFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
 }
 
 .hero-content-text{
+    width: 440px;
     margin-bottom: 36px;
  font-weight: 400;
 font-size: 18px;
@@ -163,7 +167,7 @@ color: #FFFF
 
 .hero-img{
     padding-top: 29px;
-    margin-left: 77px;
+    margin-left: 64px;
 }
 
 
@@ -270,6 +274,7 @@ color: #FFFFFF
     align-items: center;
     flex-direction: column;
     margin: 0, auto;
+    padding-top: 64px;
     
    
 }
@@ -279,7 +284,7 @@ color: #FFFFFF
     text-decoration: none;
 }
 .tittle-section-link{
-    padding: 64, 0;
+    padding: 64px, 0;
     font-weight: 700;
 font-size: 36px;
 color: #FFFFFF
@@ -289,6 +294,7 @@ color: #FFFFFF
     display: flex;
     justify-content: space-between;
     font-weight: 700;
+    margin-top: 40px;
 font-size: 15px;
 letter-spacing: 2px;
 color: #FFFFFF;
@@ -297,7 +303,7 @@ color: #FFFFFF;
 }
 
 .item-link{
-    margin-right: 88px;
+    margin-right: 40px;
     padding: 12px 24px;
     width: 214px;
     border: 2px solid #FFFFFF;
@@ -372,6 +378,5 @@ text-decoration: none;
 }
 
 .lis-item-link:hover{
-    text-decoration: underline;
     color: #f00;
 }
